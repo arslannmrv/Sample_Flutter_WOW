@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sample_flutter_wow/aboutdialog.dart';
 import 'package:sample_flutter_wow/home.dart';
 import 'package:sample_flutter_wow/sliverappbar.dart';
 
@@ -7,18 +8,19 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: "/",
       routes: {
         "/sliverappbar": (context) => SliverBar(),
+        "/aboutdialog": (context) => AboutDialogSample(),
       },
-      title: 'Flutter Demo',
+      title: 'Sample Flutter WOW',
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
+        primaryColor: Color(0xfff4a419),
       ),
+      debugShowCheckedModeBanner: false,
       home: Home(),
     );
   }
