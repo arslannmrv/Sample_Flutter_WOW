@@ -51,6 +51,7 @@ flutter:
   assets:
     - assets/images/FlutterSampleWOW.jpg
     - assets/images/aboutdialog.jpg
+    - assets/images/checkboxlist.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

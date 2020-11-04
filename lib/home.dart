@@ -6,8 +6,8 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  List<String> wow = ['SliverAppBar', 'AboutDialog'];
-  List<String> wow2 = ['/sliverappbar', '/aboutdialog'];
+  List<String> wow = ['SliverAppBar', 'AboutDialog','CheckBoxListTile'];
+  List<String> wow2 = ['/sliverappbar', '/aboutdialog','/checkboxlist'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sample_flutter_wow/aboutdialog.dart';
+import 'package:sample_flutter_wow/checkboxlistile.dart';
 import 'package:sample_flutter_wow/home.dart';
 import 'package:sample_flutter_wow/sliverappbar.dart';
 
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/sliverappbar": (context) => SliverBar(),
         "/aboutdialog": (context) => AboutDialogSample(),
+        "/checkboxlist": (context) => CheckBoxList(),
       },
       title: 'Sample Flutter WOW',
       theme: ThemeData(
