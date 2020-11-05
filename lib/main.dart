@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sample_flutter_wow/aboutdialog.dart';
 import 'package:sample_flutter_wow/checkboxlistile.dart';
 import 'package:sample_flutter_wow/home.dart';
+import 'package:sample_flutter_wow/sliverapp_tabbar.dart';
 import 'package:sample_flutter_wow/sliverappbar.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         "/sliverappbar": (context) => SliverBar(),
         "/aboutdialog": (context) => AboutDialogSample(),
         "/checkboxlist": (context) => CheckBoxList(),
+        "/sliverapp_tabbar": (context) => SilverAppBarWithTabBar(),
       },
       title: 'Sample Flutter WOW',
       theme: ThemeData(
